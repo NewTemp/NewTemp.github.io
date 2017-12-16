@@ -1,0 +1,4 @@
+上面跳动的时间使用JavaScript；
+所有界面使用bootstrap设计格式，大的页面布局使用container；
+有幕布，导航条，缩略图，轮播系统等功能；
+使用HTML5基础技术，CSS，bootstrap，JavaScript等基础知识

@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>乐游网</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+ <script type="text/javascript">
+   function time()
+	 {
+       var div_time=document.getElementById('showtime');
+	   var now=new Date();
+	   div_time.innerHTML="Time:"+now.toLocaleString()
+	   setTimeout(time,1000); 
+    }
+    </script>
+
+<style type="text/css">
+.badge{
+	color:#C03;}
+#aa{
+	height:100px;}
+</style>
+
+</head>
+
+<body onLoad="time()">
+    
+
+<div class="container" style="background-color:#FFFFFF;">
+  <ul class="breadcrumb" style=" margin-top:20px;">
+    <li><a href="login.html">首页</a></li>
+
+    <li class="active">注册</li>
+    <li id="showtime" style="text-align:center; color:#5DA5D9;font-size:20px;"> </li>
+    
+    <form   class="pull-right">
+      <input type="text" />
+      <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+    </form>	
+  </ul>
+  <br />
+
+
+  <span class="label label-danger">个人</span> <span class="label label-info">乐游</span> <span class="label label-success">行程</span><span class="label label-danger">会玩</span> <span class="label label-warning">攻略</span> <span class="label label-primary">美食</span><br />
+  <div class="jumbotron">
+    <h1>Welcome Everyone!</h1>
+    <p style=" font-family:楷体;">乐游网让你的旅程更加有趣！</p>
+  </div> 
+  
+  <ul class="nav nav-tabs" style="text-align: center;">
+  	<li class="active"><a href="#">热门城市</a></li>
+  	<li><a href="dayplan.html">旅游行程</a></li>
+  	<li><a href="daily.html">旅游日记</a></li>
+  </ul>
+  <div class="row">
+    <div  id="mid" class="col-xs-6">
+      <div class="thumbnail">
+       <img src="image/SY.jpg" alt="图一">
+       <div class="caption">
+        <h3>三亚</h3>
+        <p style=" font-size:20px;">三亚位于海南岛最南端，是中国最南部的热带滨海旅游城市。三亚市别称鹿城,又被称为东方夏威夷,它拥有全海南岛最美丽的海滨风光。</p>
+       </div>
+      </div>
+    </div>
+    <div  id="mid" class="col-xs-6">
+      <div class="thumbnail">
+       <img src="image/DL.jpg" alt="图二">
+       <div class="caption">
+        <h3>大连</h3>
+        <p style=" font-size:20px;">位于欧亚大陆东岸,中国东北辽东半岛最南端,西北濒临渤海,东南面向黄海,有包括大小岛屿260个。是中国东北主要的对外门户，也是东北亚重要的国际航运中心、国际物流中心、区域性金融中心。</p>
+       </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div  id="mid" class="col-xs-6">
+      <div class="thumbnail">
+       <img src="image/PJD.jpg" alt="图三">
+       <div class="caption">
+        <h3>普吉岛</h3>
+        <p style=" font-size:20px;">泰国南部岛屿,位于泰国南部马来半岛西海岸外的安达曼海(Andaman Sea)。首府普吉镇地处岛的东南部,是一个大港口和商业中心。</p>
+       </div>
+      </div>
+    </div>
+    <div  id="mid" class="col-xs-6">
+      <div class="thumbnail">
+       <img src="image/GLY.jpg" alt="图四">
+       <div class="caption">
+        <h3>鼓浪屿</h3>
+        <p style=" font-size:20px;">位于福建省厦门岛西南隅,与厦门市隔海相望。原名圆沙洲、圆洲仔,因海西南有海蚀洞受浪潮冲击,声如擂鼓,明朝雅化为今名，有“万国建筑博览”之称</p>
+       </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div  id="mid" class="col-xs-6">
+      <div class="thumbnail">
+       <img src="image/JBW.jpg" alt="图五">
+       <div class="caption">
+        <h3>酒杯湾</h3>
+        <p style=" font-size:20px;">澳大利亚塔斯马尼亚州菲瑟涅国家公园,到的第一天,我们登顶了Mt Atmos,这是一条颇具难度的登山步道,作为登顶摇篮山的前哨站是在合适不过了,在Mt Atmos 山顶可以一览酒杯湾和Coles Bay 的美景。</p>
+       </div>
+      </div>
+    </div>
+    <div  id="mid" class="col-xs-6">
+      <div class="thumbnail">
+       <img src="image/SSE.jpg" alt="图六">
+       <div class="caption">
+        <h3>塞舌尔</h3>
+        <p style=" font-size:20px;">全名塞舌尔共和国,是坐落在东部非洲印度洋上的一个群岛国家。全境半数地区为自然保护区，享有“旅游者天堂”的美誉。塞舌尔经济不发达，工农业基础非常薄弱，一般人民以农渔为业，并养有许多家禽家畜。其他方面的国家收入，就大部份依赖入境观光客的消费。</p>
+       </div>
+      </div>
+    </div>
+</div>
+
+<div class="container" style="height:280px;" id="foot">
+    <ul class="pager" style="margin-top:100px;">
+    <li><a href="#">上一页</a></li>
+    <li><a href="#">下一页</a></li>
+  </ul>
+  <div style="margin-top:80px; color:#999;"><p style="text-align:center;">乐游网&nbsp;&nbsp;||&nbsp;&nbsp;Copyright 2017 All Right Reserved&nbsp;&nbsp;||&nbsp;&nbsp;本站图片收集自网络，仅供观赏2017@126.com</p></div> </div>
+</div>
+
+<script src="jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
