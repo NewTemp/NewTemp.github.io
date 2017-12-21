@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>PersonalManager</title>
+		<link href="style/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="style/font-awesome.css">
+		<link href="style/style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="img/logo.PNG">
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top bs-docs-nav" role="banner">
+
+			<div class="conjtainer">
+				<!-- Menu button for smallar screens -->
+				<div class="navbar-header">
+					<button class="navbar-toggle btn-navbar" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+			<span>菜单</span>
+		  </button>
+					<!-- Site name for smallar screens -->
+					<a href="index.html" class="navbar-brand hidden-lg">首页</a>
+				</div>
+
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+					<ul class="nav navbar-nav">
+
+						<li class="dropdown dropdown-big">
+							<a href="javascript:window.location.reload()"><span class="label label-danger"><i class="icon-refresh"></i></span>刷新</a>
+						</li>
+
+					</ul>
+
+					<!-- Search form -->
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+					</form>
+					<!-- Links -->
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown pull-right">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="icon-user"></i> 管理员 <b class="caret"></b>
+							</a>
+
+							<!-- Dropdown menu -->
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><i class="icon-user"></i> 资料</a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-cogs"></i> 设置</a>
+								</li>
+								<li>
+									<a href="login.html"><i class="icon-off"></i> 退出</a>
+								</li>
+							</ul>
+						</li>
+
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<!-- Logo. -->
+						<div class="logo">
+							<h1><a href="#">个人管理<span class="bold"></span></a></h1>
+							<p class="meta">PersonalManager</p>
+						</div>
+					</div>
+
+					<!-- Data section -->
+
+					<div class="col-md-3">
+						<div class="header-data">
+
+							<!-- Traffic data -->
+							<div class="hdata">
+								<div class="mcol-left">
+									<!-- Icon with red background -->
+									<i class="icon-signal bred"></i>
+								</div>
+								<div class="mcol-right">
+									<!-- Number of visitors -->
+									<p>
+										<a href="#">7000</a> <em>访问</em></p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+							<!-- Members data -->
+							<div class="hdata">
+								<div class="mcol-left">
+									<!-- Icon with blue background -->
+									<i class="icon-user bblue"></i>
+								</div>
+								<div class="mcol-right">
+									<!-- Number of visitors -->
+									<p>
+										<a href="#">3000</a> <em>用户</em></p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+							<!-- revenue data -->
+							<div class="hdata">
+								<div class="mcol-left">
+									<!-- Icon with green background -->
+									<i class="icon-money bgreen"></i>
+								</div>
+								<div class="mcol-right">
+									<!-- Number of visitors -->
+									<p>
+										<a href="#">5000</a><em>订单</em></p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<!-- Header ends -->
+
+		<!-- Main content starts -->
+
+		<div class="content">
+			<!--
+				作者：offline
+				时间：2017-12-21
+				描述：中部
+			-->
+			<!-- Sidebar -->
+			<div class="sidebar">
+				<div class="sidebar-dropdown">
+					<a href="#">导航</a>
+				</div>
+
+				<ul id="nav">
+					<li>
+						<a href="" class="open"><i class="icon-home"></i>控制台</a>
+					</li>
+					<li class="has_sub">
+						<a href="#"><i class="icon-list-alt"></i> 插件页面 <span class="pull-right"><i class="icon-chevron-right"></i></span></a>
+						<ul>
+							<li>
+								<a href="widgets1.html">插件页面 #1</a>
+							</li>
+							<li>
+								<a href="widgets2.html">插件页面 #2</a>
+							</li>
+							<li>
+								<a href="widgets3.html">插件页面 #3</a>
+							</li>
+						</ul>
+					</li>
+					<li class="has_sub">
+						<a href="#"><i class="icon-file-alt"></i> 页面模块1 <span class="pull-right"><i class="icon-chevron-right"></i></span></a>
+						<ul>
+							<li>
+								<a href="post.html">表单Post</a>
+							</li>
+							<li>
+								<a href="login.html">登录页</a>
+							</li>
+							<li>
+								<a href="register.html">注册页面</a>
+							</li>
+							<li>
+								<a href="support.html">帮助页</a>
+							</li>
+							<li>
+								<a href="invoice.html">购物清单</a>
+							</li>
+							<li>
+								<a href="profile.html">个人资料</a>
+							</li>
+							<li>
+								<a href="gallery.html">相册页面</a>
+							</li>
+						</ul>
+					</li>
+					<li class="has_sub">
+						<a href="#"><i class="icon-file-alt"></i> 页面模块2 <span class="pull-right"><i class="icon-chevron-right"></i></span></a>
+						<ul>
+							<li>
+								<a href="media.html">媒体</a>
+							</li>
+							<li>
+								<a href="statement.html">描述</a>
+							</li>
+							<li>
+								<a href="error.html">错误</a>
+							</li>
+							<li>
+								<a href="error-log.html">错误日志</a>
+							</li>
+							<li>
+								<a href="calendar.html">日历</a>
+							</li>
+							<li>
+								<a href="grid.html">网格</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="charts.html"><i class="icon-bar-chart"></i>图表</a>
+					</li>
+					<li>
+						<a href="tables.html"><i class="icon-table"></i>表格</a>
+					</li>
+					<li>
+						<a href="forms.html"><i class="icon-tasks"></i>表单</a>
+					</li>
+					<li>
+						<a href="ui.html"><i class="icon-magic"></i>UI图标</a>
+					</li>
+					<li>
+						<a href="calendar.html"><i class="icon-calendar"></i>日历</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="mainbar">
+
+				<div class="page-head">
+					<h2 class="pull-left"><i class="icon-home"></i>控制台</h2>
+
+					<div class="bread-crumb pull-right">
+						<a href="index.html"><i class="icon-home"></i> 首页</a>
+						<!-- Divider -->
+						<span class="divider">/</span>
+						<a href="#" class="bread-current">控制台</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row" align="center">
+					<div class="col-md-12">
+						<p class="copy">Copyright &copy; 2017 |
+							<a href="#">www.llonghu.cn</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+
+</html>
