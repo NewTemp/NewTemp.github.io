@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>PersonalResume</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="img/logo.PNG" type="image/x-icon" /> 
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="jumbotron">
+				<div class="container">
+					<h1>欢迎来访个人网站！</h1>
+					<p>Welcome to the personal website!</p>
+					<p style="margin-bottom: 0px;">
+						<span class="label label-default">个人</span>
+						<span class="label label-warning">Java</span>
+						<span class="label label-success">网站</span>
+						<span class="label label-info">简历</span>
+						<span class="label label-danger">BootStrap</span>
+					</p>
+				</div>
+			</div>
+
+			<div class="alert alert-warning">
+				<a href="#" class="close" data-dismiss="alert">
+					&times;
+				</a>
+				<strong>Tips：</strong>点击下面的链接。
+			</div>
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">
+			            	<span class="glyphicon glyphicon-user"></span>个人简历
+			        <p class="list-group-item-text" style="font-size: 8px;">
+						Personal Resume
+					</p>
+				   </h4>
+			</a>
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">
+			            	<span class="glyphicon glyphicon-heart"></span>兴趣天地
+			        <p class="list-group-item-text" style="font-size: 8px;">
+						Interest Gathering
+					</p>
+				   </h4>
+			</a>
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">
+			            	<span class="glyphicon glyphicon-th-large"></span>Java爱好者
+			        <p class="list-group-item-text" style="font-size: 8px;">
+						Java Enthusiast
+					</p>
+				   </h4>
+			</a>
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">
+			            	<span class="glyphicon glyphicon-envelope"></span>联系作者
+			        <p class="list-group-item-text" style="font-size: 8px;">
+						Author Affiliation
+					</p>
+				   </h4>
+			</a>
+			<div style="margin-top: 30px;">
+				<button class="btn btn-success btn-block" data-toggle="modal" data-target="#myModal" style="opacity: 0.7;">点击进入</button>
+			</div>
+			<!-- 模态框（Modal） -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-lock"></span>登录系统</h4>
+						</div>
+						<div class="modal-body">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="name" class="col-xs-2 control-label">用户名:</label>
+									<div class="col-xs-10">
+										<input type="text" class="form-control" id="username" placeholder="请输入用户名" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="name" class="col-xs-2 control-label">密码:</label>
+									<div class="col-xs-10">
+										<input type="password" id="password" class="form-control" placeholder="请输入密码" />
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+							<button type="button" class="btn btn-primary" id="btn1">登录</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(function() {
+				$('#myModal').on('hide.bs.modal', function() {
+					if(confirm('确定关闭？')) {
+						return true;
+					}
+					return false;
+				})
+			});
+		</script>
+		<script type="text/javascript" src="js/login.js"></script>
+	</body>
+
+</html>
